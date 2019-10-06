@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="./style.css">
+
+    <title>API consumer</title>
+</head>
+
+<body onload="disable_clearUsers_button()">
+    
+    <h1>JS API consumer application</h1>
+
+
+    <div id='button_area' class="grid-container">
+        <button class="button" id='getUsers_btn' onclick="fetchUsers()">Get Users</button>
+        <button class = "button" id='clearUsers_btn' onclick="clearUsers()"> Clear results</button>
+    </div>
+
+    <div id='user_data_placeholder'>
+    </div>
+
+
+    <script src = './main.js'></script>
+</body>
+
+</html>

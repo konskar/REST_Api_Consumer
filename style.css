@@ -1,0 +1,51 @@
+h1{
+    color:lightgreay;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.button{
+    border: 3px solid;
+    color: #fff;
+    /* top bottom left right */
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9REM;
+    font-family: Lato;
+    margin: 50px 180px;
+}
+
+#getUsers_btn{
+    background-color: #008CBA;
+    border-color:  lightslategray;
+}
+
+
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:20px;
+}
+
+#user_data {
+    margin-top:20px;
+    padding-top:1px;  
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px; 
+}
+
+.clearUsers_btn_disabled{
+    border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.clearUsers_btn_enabled{
+    color:white;
+    background-color: #555;
+    border-color: #0083b7;
+}
